@@ -1,2 +1,36 @@
 # Elite-cloud-security-task4
 Secure S3 setup with IAM policy and encryption
+☁️ Task 4 – Cloud Security on AWS
+
+🔐 Objective
+Implement IAM Policies, Secure S3 Storage, and Data Encryption.
+
+✅ What Was Done
+🧑‍💻 Created IAM user readonly-user
+
+Attached AmazonS3ReadOnlyAccess policy (read-only access)
+
+🪣 Created S3 Bucket (secure-storage-aditya)
+
+    Blocked all public access
+
+    Enabled versioning 
+
+🔐 Enabled Server-Side Encryption (SSE-S3)
+
+    Ensures data at rest is encrypted by AWS-managed keys
+
+📁 Deliverables
+   IAM Policy configuration screenshot
+
+   S3 bucket permissions & encryption screenshots
+
+   This report in README.md
+
+📊 Result
+A fully secure cloud storage setup on AWS:
+
+Security Feature	Configured
+IAM access control	✅ Yes
+Public access blocked	✅ Yes
+Data encryption (SSE)	✅ Yes
